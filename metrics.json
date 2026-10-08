@@ -1,0 +1,77 @@
+{
+  "dataset": {
+    "total": 38822,
+    "fake": 17900,
+    "real": 20922,
+    "train": 31057,
+    "test": 7765
+  },
+  "models": [
+    {
+      "name": "Logistic Regression",
+      "accuracy": 98.27,
+      "precision": 97.99,
+      "recall": 98.83,
+      "f1": 98.41
+    },
+    {
+      "name": "Naive Bayes",
+      "accuracy": 94.86,
+      "precision": 95.95,
+      "recall": 94.46,
+      "f1": 95.2
+    },
+    {
+      "name": "Passive Aggressive",
+      "accuracy": 98.96,
+      "precision": 99.0,
+      "recall": 99.07,
+      "f1": 99.03
+    }
+  ],
+  "deployed": "Logistic Regression",
+  "confusion": [
+    [
+      3495,
+      85
+    ],
+    [
+      49,
+      4136
+    ]
+  ],
+  "top_real": [
+    "president donald",
+    "wednesday",
+    "tuesday",
+    "thursday",
+    "republican",
+    "friday",
+    "monday",
+    "said statement",
+    "trump said",
+    "told",
+    "presidential",
+    "spokesman",
+    "minister",
+    "nov",
+    "president barack"
+  ],
+  "top_fake": [
+    "video",
+    "just",
+    "image",
+    "featured",
+    "featured image",
+    "gop",
+    "hillary",
+    "read",
+    "president trump",
+    "watch",
+    "obama",
+    "america",
+    "getty",
+    "getty images",
+    "wire"
+  ]
+}
